@@ -1,0 +1,57 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>personal blog</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <div class="page-header" >
+            <h1><a href="">ShenZhiqiang Blog-hw3</a></h1>
+        </div>
+
+        <div class="content container">
+			<div class="row">
+				<div class="col-md-8">
+				
+						<div class="post">
+							<div class="date">
+								2023.03.24
+							</div>
+							<h1><a href="">Review of “A View of Cloud Computing”</a></h1>
+							<p>In 2010, cloud-conscious people presented 10 obstacles and opportunities from their perspective.
+1.Availability/Business Continuity, Opportunity is Use Multiple Cloud Providers
+2.Data Lock-In, Opportunity is Standardize APIs; Compatible SW to enable Surge or Hybird Cloud Computing
+3.Data Confidentiality and Auditability, Opportunity is Deploy Encryption, VLANs, Firewalls
+4.Data Transfer Bottlenecks, Opportunity is FedExing Disks; Higher BW Switches
+5.Performance Unpredictability, Opportunity is Improved VM Support; Flash Memory; Gang Schedule VMs
+6.Scalable Storage, Opportunity is Invent Scalable Store
+7.Bugs in Large Distributed Systems, Opportunity is Invent Debugger that relies on Distributed VMs
+8.Scaling Quickly, Opportunity is Invent Auto-Scaler that relies on ML; Snapshots for Conservation
+9.Reputation Fate Sharing, Opportunity is Offer reputation-guarding services like those for email
+10.Software Licensing, Opportunity is Pay-for-use licenses</p>
+						</div>
+						
+						<div class="post">
+							<div class="date">
+								2023.03.23
+							</div>
+							<h1><a href="">Review of “Eventually consistent”</a></h1>
+							<p>Werner Vogels summarizes five different scenarios for implementing Eventually Consistent for this ultimate consistency:
+·Causal consistency
+·Read-your-write consistency
+·Session consistency
+·Monotonic read consistency
+·Monotonic write consistency
+
+In practice, these five designs are often used in combination to build a distributed system with ultimate consistency.</p>
+						</div>
+						
+				</div>
+			</div>
+		</div>
+		
+		
+    </body>
+</html>

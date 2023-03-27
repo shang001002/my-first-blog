@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'shang001.pythonanywhere.com',
-    'maxcdn.bootstrapcdn.com'
 ]
 
 
